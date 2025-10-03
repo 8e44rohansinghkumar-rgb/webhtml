@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Rohan Kumar Singh
+        </h1>
+        <nav>
+            <ul>
+                <Li><a href="#About">About</a></Li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>
+                Welcome to My portfolio
+            </h2>
+            <p>
+                Hello! i am a web development student. This is my personal portfolio website.
+            </p>
+            <h2 id="About"> About Me </h2>
+                <p>
+                    <img style="width: 150px;" src="rohan.jpeg" alt="MY PICTURE">
+                </p>
+                <p>
+                    I am passionate about learning web development and building creative projects.
+                </p>
+                <h2 id="project">
+                    My Projects
+                </h2>
+                <p>
+                <ul>
+                    <li><b>Portfolio website:</b> A personal one page website to showcase your bio, skills, and contact
+                        details</li>
+                    <li><b>My Favorite Websites:</b> A simple one page website to list my all time favorite websites.
+                    </li>
+                    <li><b>Complex Table:</b> A one page website to create a complex table listing names, products, and
+                        cost.</li>
+                    <li><b>Registration Form(Extended):</b> A one page website to create a form mentioning all our
+                        personal details.</li>
+                </ul>
+                </p>
+                <h2>
+                    Technical skills
+                </h2>
+                <table border="1">
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Learning</td>
+                    </tr>
+                </table>
+        </section>
+    </main>
+    <footer>
+        <h1 id="Contact">
+            Contact Me
+        </h1>
+        <label for="name"><b>Name:</b></label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <br>
+        <br>
+        <label for="Email:"><b>Email</b></label>
+        <input type="text" id="Email" placeholder="Enter your email">
+        <br>
+        <br>
+        <b>Message:</b>
+        <textarea name="message"id="message" placeholder="Enter your message"></textarea>
+        <br><br>
+        <form>
+        <button><b>Send</b></button>
+        </form>
+    </footer>
+</body>
+</html>
